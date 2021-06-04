@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/dist/style.css">
+    <title>Simple Form - Sign Up</title>
+</head >
+<body class="bg-gray-100 shadow-lg dark:bg-black">
+    <div class="flex items-center h-screen w-full bg-teal-lighter dark:bg-gray-800">
+        <div class="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto dark:bg-gray-700">
+            <h1 class="font-bold mb-5 uppercase dark:text-white">Sign Up</h1>
+            <form action="/" method="post">
+                <div class="flex flex-col mb-4">
+                  <label class="dark:text-white" for="first_name">First Name</label>
+                  <input class="required-entry mb-2 border py-2 px-3 text-grey-darkest dark:text-white dark:bg-gray-600 focus:outline-none focus:ring focus:border-blue-300" type="text" name="first_name" id="first_name" placeholder="Tyler Durden">
+                </div>
+                <div class="flex flex-col mb-4">
+                  <label class="dark:text-white" for="age">Age</label>
+                  <input class="required-entry border py-2 px-3 text-grey-darkest dark:bg-gray-600 dark:text-white focus:outline-none focus:ring focus:border-blue-300" type="text" name="age" id="age" placeholder="24">
+                </div class="flex flex-col mb-4">
+                <div class="flex-col mb-4 inline-block">
+                  <label class="dark:text-white" for="Male">Male</label>
+                  <input class="form-radio dark:text-yellow-600" type="radio" name="Male" id="Male">
+
+                  <label class="dark:text-white" for="Female">Female</label>
+                  <input class="form-radio dark:text-yellow-600" type="radio" name="Female" id="Female">
+                </div>
+                <div class="flex flex-col mb-4">
+                  <label class="dark:text-white" for="not_listed">Not listed gender</label>
+                  <input :class="{'bg-green-200 text-green-700': password.length > 7, 'bg-red-200 text-red-700':password.length < 7 }" class="border py-2 px-3 text-grey-darkest dark:bg-gray-600 dark:text-white focus:outline-none focus:ring focus:border-blue-300" type="text" name="not_listed" id="not_listed">
+                </div>
+                <div class="flex flex-col mb-4">
+                    <label class="dark:text-white" for="prof">Profession</label>
+                    <input class="border py-2 px-3 text-grey-darkest focus:outline-none focus:ring focus:border-blue-300  dark:bg-gray-600 dark:text-white" type="text" name="prof" id="prof" placeholder="Programmer">
+                  </div class="flex flex-col mb-4">
+                  <div class="flex flex-col mb-4">
+                    <label class="dark:text-white" for="company">Company</label>
+                    <input class="border py-2 px-3 text-grey-darkest dark:text-white dark:bg-gray-600 focus:outline-none focus:ring focus:border-blue-300" type="text" name="company" id="company" placeholder="Tesla">
+                  </div class="flex flex-col mb-4">
+                  <div class="block mb-4">
+                    <input  class="form-checkbox dark:text-yellow-600" type="checkbox" id="agree" name="agree">
+                    <label  class="dark:text-white" for="agree">&nbsp&nbspI agree to receive e-mails from your company and your <span class="underline">terms and conditions.</span></label>
+                  </div>
+                <button class="transform ease-in-out duration-700 hover:scale-125 block bg-teal hover:bg-blue-400 text-white bg-blue-500 text-lg mx-auto p-2 rounded dark:text-white dark:bg-yellow-600 " type="submit" id="submit_button">Submit</button>
+              </form>
+        </div>
+    </div>
+</body>
+<script src="/dist/app.js"></script>
+</html>
+
+
+<!-- TODO :
+    1: input kisminda mecbur doldurulmasi gerekn kismi ekle ve eger bossa 
+      js ile deni class ekleyip kirmizi yap error versin.
+    2: submit button u basildiktan sonra eger islem basariliysa asil div kismini silip tamamen bos bi sayfaya 
+      'tamamlandi yazilmasi.'
+    3: email regex ekle.
+    4: tamamlandi ekranina bir kac tane animasyon veya gif koyabilirsin. goodbye tarzi.
+    5: radio buttonlarin sadece 1 tanesini secmesini saglayabilirsin. 
+    6: agreed to bla bla mecbur secilmesi gerkeiyor. 
+-->>
