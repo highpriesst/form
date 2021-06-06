@@ -11,5 +11,5 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 :-------------------------:|:-------------------------:
 <p float="left">
   <img src="screenshots/normal-mode.png" width="100" />
-  <img src="screenhots/dark-mode.png" width="100" /> 
+  <img src="screenshots/dark-mode.png" width="100" /> 
 </p>
