@@ -15,3 +15,8 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
     <img src="screenshots/dark-mode.png" alt="Dark-Mode" width="100" height="100">
   </div>
 </div>
+
+
+         Normal Mode       |    Dark Mode
+:-------------------------:|:-------------------------:
+![](screenshot/normal-mode.png)  |  ![](screenshots/dark-mode.png)
