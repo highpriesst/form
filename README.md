@@ -7,6 +7,5 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 - [ ] Form validation
 
 
-
-<img id="normal-mode" src="screenshots/normal-mode.png" width="500" height="700">
 <label for="normal-mode"> #Normal Mode </label>
+<img id="normal-mode" src="screenshots/normal-mode.png" width="500" height="700">
