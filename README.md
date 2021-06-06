@@ -19,4 +19,4 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 
          Normal Mode       |    Dark Mode
 :-------------------------:|:-------------------------:
-![](screenshot/normal-mode.png)  |  ![](screenshots/dark-mode.png)
+![](screenshots/normal-mode.png)  |  ![](screenshots/dark-mode.png)
