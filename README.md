@@ -7,8 +7,8 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 - [ ] Form validation
 
 
-         Normal Mode       |    Dark Mode
-:-------------------------:|:-------------------------:
+                                    Normal Mode       |    Dark Mode
+                     :-------------------------:|:-------------------------:
 <p float="left">
   <img src="screenshots/normal-mode.png" width="400" />
   <img src="screenshots/dark-mode.png" width="400" /> 
