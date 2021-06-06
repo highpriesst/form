@@ -8,9 +8,9 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 
 <div class="row">
   <div class="column">
-    <img src="screenshots/normal-mode.png" alt="Normal-Mode" style="width:500 height:600">
+    <img src="screenshots/normal-mode.png" alt="Normal-Mode" width="100" height="100">
   </div>
   <div class="column">
-    <img src="screenshots/dark-mode.png" alt="Dark-Mode" style="width:500 height:600">
+    <img src="screenshots/dark-mode.png" alt="Dark-Mode" width="100" height="100">
   </div>
 </div>
