@@ -7,16 +7,9 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 - [ ] Form validation
 
 
-<div class="row">
-  <div class="column">
-   <img src="screenshots/dark-mode.png" alt="Dark-Mode" width="100" height="100">
-  </div>
-  <div class="column">
-    <img src="screenshots/dark-mode.png" alt="Dark-Mode" width="100" height="100">
-  </div>
-</div>
-
-
          Normal Mode       |    Dark Mode
 :-------------------------:|:-------------------------:
-<img src="screenshots/dark-mode.png" alt="Dark-Mode" width="100" height="100">|  <img src="screenshots/dark-mode.png" alt="Dark-Mode" width="100" height="100">
+<p float="left">
+  <img src="screenshots/normal-mode.png" width="100" />
+  <img src="screenhots/dark-mode.png" width="100" /> 
+</p>
