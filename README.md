@@ -6,6 +6,11 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 - [ ] Submit button animation
 - [ ] Form validation
 
-
-<label for="normal-mode"> #Normal Mode </label>
-<img id="normal-mode" src="screenshots/normal-mode.png" width="500" height="700">
+<div class="row">
+  <div class="column">
+    <img src="screenshots/normal-mode.png" alt="Normal-Mode" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="screenshots/dark-mode.png" alt="Dark-Mode" style="width:100%">
+  </div>
+</div>
