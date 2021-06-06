@@ -8,6 +8,6 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 
 
 <p float="left">
-  <img src="screenshots/normal-mode.png" width="395" />
+  <img src="screenshots/normal-mode-fixed.png" width="395" />
   <img src="screenshots/dark-mode.png" width="395" /> 
 </p>
