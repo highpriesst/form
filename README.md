@@ -8,4 +8,4 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 
 
 #Normal-Mode 
-<img src="screenshots/normal-mode.png" width="100" height="100">
+<img src="screenshots/normal-mode.png" width="400" height="400">
