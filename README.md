@@ -4,7 +4,6 @@ This form build using [TailwindCss](https://tailwindcss.com/docs).
 
 - [x] Dark Mode
 - [x] Submit button animation
-- [ ] Form validation
 
 
 <p float="left">
